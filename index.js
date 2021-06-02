@@ -85,7 +85,7 @@ function create(options) {
         return hasError(e)
       }
 
-      var event = obj.object_kind
+//       var event = obj.object_kind
 
      res.writeHead(200, { 'content-type': 'application/json' })
      res.end('{"ok":true}')
